@@ -1,0 +1,87 @@
+body
+{
+	background: url(img/background.jpg);
+}
+
+/*Style de la page*/
+#bloc_page
+{
+	size: 90%;
+	min-width: 950px;
+}
+
+#bloc_page a
+{
+	color: black;
+}
+
+section
+{
+	font-size: 2em;
+}
+
+/*Gestion des titres*/
+h1
+{
+	font-size: 6em;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 3em;
+}
+
+h3
+{
+	font-size: 2em;
+}
+
+/*Menu principal*/
+nav
+{
+	width: 60%;
+	justify-content: center;
+	margin: auto;
+}
+
+nav ul
+{
+	font-size: 4em;
+
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+nav a
+{
+	text-decoration: none;
+}
+
+/*Disposition des mois*/
+.list_festival
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/*section ul
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}*/
+
+/*Gestion des affiche*/
+.affiche
+{
+	width: 60%;
+	min-width: 900px;
+
+	margin: auto;
+
+	background-color: black; /*Fond noir pour les affiches sans fond*/
+}
